@@ -87,7 +87,7 @@
                                     <div class="image-mask">
 
                                     </div>
-                                    <img src="{{ Storage::url($pictorial->gallery_image) }}" alt="img" width="75">
+                                    <img src="{{ $pictorial->gallery_image }}" alt="img" width="75">
                                     <h3>{{ $pictorial->title }}</h3>
                                    
                              </div>

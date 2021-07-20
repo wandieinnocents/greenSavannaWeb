@@ -49,13 +49,13 @@ class ProjectController extends Controller
 
       
         //image 1 upload
-        $project->project_image = $request->file('project_image')->store('public/project_images');
+        $project->project_image = $request->file('project_image')->move('uploads/projects');
+
 
         //image 2 upload
-        $project->project_image_two = $request->file('project_image_two')->store('public/project_images');
-
+        $project->project_image_two = $request->file('project_image_two')->move('uploads/projects');
         //image 3 upload
-        $project->project_image_three = $request->file('project_image_three')->store('public/project_images');
+        $project->project_image_three = $request->file('project_image_three')->move('uploads/projects');
 
         // save data to the database
         $project->save();
@@ -115,7 +115,7 @@ class ProjectController extends Controller
        // update image 1
         if($request->hasFile('project_image')){
             
-            $project->project_image = $request->file('project_image')->store('public/project_images');;
+            $project->project_image = $request->file('project_image')->move('uploads/projects');
         }   
         //end of update image 1
 
@@ -123,14 +123,14 @@ class ProjectController extends Controller
         // update image 2
         if($request->hasFile('project_image_two')){
                     
-            $project->project_image_two = $request->file('project_image_two')->store('public/project_images');;
+            $project->project_image_two = $request->file('project_image_two')->move('uploads/projects');
         }   
         //end of update image 2
 
         // update image 2
         if($request->hasFile('project_image_three')){
                             
-            $project->project_image_three = $request->file('project_image_three')->store('public/project_images');;
+            $project->project_image_three = $request->file('project_image_three')->move('uploads/projects');
         }   
         //end of update image 2
 

@@ -44,10 +44,10 @@
                                     <td> {{ $project->project_category->name }}</td>
                                     <td> {{ $project->title }}	</td>
                                     <td> {{ $project->description }} </td>
-                                    <td>  <img src="{{ Storage::url($project->project_image) }}" alt="img" class="img-thumbnail" width="75"> </td>                                                
-
-                                    <td>  <img src="{{ Storage::url($project->project_image_two) }}" alt="img" class="img-thumbnail" width="75"> </td>  
-                                    <td>  <img src="{{ Storage::url($project->project_image_three) }}" alt="img" class="img-thumbnail" width="75"> </td>                                                
+                                    <td>  <img src="{{ $project->project_image }}" alt="img" class="img-thumbnail" width="75"> </td>                                                
+                                            
+                                    <td>  <img src="{{ $project->project_image_two }}" alt="img" class="img-thumbnail" width="75"> </td>  
+                                    <td>  <img src="{{ $project->project_image_three }}" alt="img" class="img-thumbnail" width="75"> </td>                                                
                                               
                                     <td>
                                         <div class="d-flex">

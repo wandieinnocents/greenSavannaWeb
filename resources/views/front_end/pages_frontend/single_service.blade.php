@@ -76,7 +76,8 @@
               </div>
               <div class="col-lg-6 space-break">
                 <figure class="about-img">
-                    <img class="card-img-top img-fluid" src="{{ Storage::url($service->service_image) }}" alt="Card image cap">
+                
+                    <img class="card-img-top img-fluid" src="{{ asset($service->service_image)  }}" alt="Card image cap">
                 </figure>
               </div>
             </div>

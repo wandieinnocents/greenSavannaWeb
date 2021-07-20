@@ -76,7 +76,7 @@
 
                     <figure class="card-img overlay">
 
-                     <img src="{{ Storage::url($fetch_service->service_image) }}" alt="img"  width="75">
+                    <img src="{{ $fetch_service->service_image }}" alt="img" class="img-thumbnail" width="75">
 
                     <div class="card-caption">
                         

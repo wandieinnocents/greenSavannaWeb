@@ -42,7 +42,11 @@
                                                 <td>{{ $service->service_name }}	</td>
                                                 <td> {{ $service->service_description }}</td>
                                         
-                                                <td>  <img src="{{ Storage::url($service->service_image) }}" alt="img" class="img-thumbnail" width="75"> </td>
+                                                <td>  
+                                                
+                                                <img src="{{ $service->service_image }}" alt="img" class="img-thumbnail" width="75"> 
+                                                
+                                                </td>
                                                 <td>
 													<div class="d-flex">
 														<a href="{{ route('services.edit',$service->id)}}" class="btn btn-primary shadow btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>

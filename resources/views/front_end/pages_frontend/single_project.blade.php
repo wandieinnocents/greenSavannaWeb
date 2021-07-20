@@ -85,14 +85,14 @@
                     <!-- col1 -->
                     <div class="col-lg-4">
                         <figure class="about-img">
-                            <img class="card-img-top img-fluid" src="{{ Storage::url($project->project_image) }}" alt="Add Photo">
+                            <img class="card-img-top img-fluid" src="{{ asset($project->project_image) }}" alt="Add Photo">
                         </figure>
                     </div>
 
                     <!-- col1 -->
                     <div class="col-lg-4">
                         <figure class="about-img">
-                            <img class="card-img-top img-fluid" src="{{ Storage::url($project->project_image_two ) }}" alt="Add Photo">
+                            <img class="card-img-top img-fluid" src="{{ asset($project->project_image_two) }}" alt="Add Photo">
                         </figure>
                     </div>
 
@@ -100,7 +100,7 @@
                     <!-- col1 -->
                     <div class="col-lg-4">
                         <figure class="about-img">
-                            <img class="card-img-top img-fluid" src="{{ Storage::url($project->project_image_three) }}" alt="Add Photo">
+                            <img class="card-img-top img-fluid" src="{{ asset($project->project_image_three) }}" alt="Add Photo">
                         </figure>
                     </div>
 

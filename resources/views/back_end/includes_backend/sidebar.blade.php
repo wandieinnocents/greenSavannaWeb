@@ -24,7 +24,7 @@
                    
 
                     <!-- Products -->
-                    <!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
 							<i class="flaticon-381-heart"></i>
 							<span class="nav-text">Products</span>
 						</a>
@@ -35,7 +35,7 @@
                             <li><a href="/products">View Products</a></li>
                             
                         </ul>
-                    </li> -->
+                    </li>
 
                       <!-- About Us -->
                       <!-- <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">

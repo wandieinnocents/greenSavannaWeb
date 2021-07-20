@@ -49,10 +49,10 @@ Route::get('/dashboard' , 'App\Http\Controllers\AdminPagesController@dashboard')
 // quotes
 // Route::get('/quotes' , 'App\Http\Controllers\AdminPagesController@quotes')->middleware('auth');
 // add product 
-// Route::resource('/products','App\Http\Controllers\ProductController')->middleware('auth');
+Route::resource('/products','App\Http\Controllers\ProductController')->middleware('auth');
 // add product Category
-// Route::resource('/product_categories','App\Http\Controllers\ProductCategoryController');
-// Route::resource('/categories','App\Http\Controllers\CategoryController');
+Route::resource('/product_categories','App\Http\Controllers\ProductCategoryController');
+Route::resource('/categories','App\Http\Controllers\CategoryController');
 // project categories
 Route::resource('/project_categories','App\Http\Controllers\ProjectCategoryController')->middleware('auth');
 // projects

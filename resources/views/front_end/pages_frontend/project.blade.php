@@ -75,8 +75,9 @@
                 <div class="thumbnail-card">
 
                     <figure class="card-img overlay">
+                    
 
-                    <img src="{{ Storage::url($fetch_project->project_image) }}" alt="img"  width="75"> 
+                    <img src="{{ $fetch_project->project_image }}" alt="img"  width="75"> 
 
                     <div class="card-caption">
                         

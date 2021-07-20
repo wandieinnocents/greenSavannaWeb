@@ -43,7 +43,7 @@ class ServiceController extends Controller
         $service->service_description  = $request->service_description;
 
         //image upload
-        $service->service_image = $request->file('service_image')->store('public/service_images');
+        $service->service_image = $request->file('service_image')->move('uploads/services');
 
         $service->save();
         return redirect('/services');
@@ -93,9 +93,10 @@ class ServiceController extends Controller
          $service = Service::find($id);
 
         // update image
+
         if($request->hasFile('service_image')){
             
-            $service->service_image = $request->file('service_image')->store('public/service_images');;
+            $service->service_image = $request->file('service_image')->move('uploads/services');
         }   
         //end of update image
 

@@ -43,7 +43,7 @@
                                                 <td> {{ $gallery->title }}	    </td>
                                                 <td> {{ $gallery->description }} </td>
                                         
-                                                <td>  <img src="{{ Storage::url($gallery->gallery_image) }}" height="75" width="75" alt="" /> </td>
+                                                <td>  <img src="{{ $gallery->gallery_image }}" height="75" width="75" alt="" /> </td>
                                                 <td>
 													<div class="d-flex">
 														<a href="{{ route('galleries.edit',$gallery->id)}}" class="btn btn-primary shadow btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>

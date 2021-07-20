@@ -46,7 +46,7 @@ class GalleryController extends Controller
         $gallery->description           = $request->description;
 
         //image upload
-        $gallery->gallery_image = $request->file('gallery_image')->store('public/images');
+        $gallery->gallery_image = $request->file('gallery_image')->move('uploads/galleries');
 
 
         // save data to the db
@@ -105,7 +105,7 @@ class GalleryController extends Controller
               'gallery_image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
             ]);
             
-            $gallery->gallery_image = $request->file('gallery_image')->store('public/images');;
+            $gallery->gallery_image = $request->file('gallery_image')->move('uploads/galleries');
         }
         //end of update image
 
