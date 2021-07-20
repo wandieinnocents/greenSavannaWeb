@@ -13,7 +13,7 @@ class ContactController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth')->except('create');
+        $this->middleware('auth')->except('create','store');
         
         //Multiple exclude
         // $this->middleware('auth')->except(['index','other']);
@@ -58,7 +58,9 @@ class ContactController extends Controller
         // save
         $contact->save();
         // redirect
-        return redirect('/contacts/create');
+        return redirect()->back();
+       
+        
 
     }
 
