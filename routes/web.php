@@ -56,13 +56,13 @@ Route::resource('/categories','App\Http\Controllers\CategoryController');
 // project categories
 Route::resource('/project_categories','App\Http\Controllers\ProjectCategoryController')->middleware('auth');
 // projects
-Route::resource('/projects','App\Http\Controllers\ProjectController')->middleware('auth')->middleware('auth');
+Route::resource('/projects','App\Http\Controllers\ProjectController');
 // team
 // Route::resource('/teams','App\Http\Controllers\TeamController');
 //about
 // Route::resource('/abouts','App\Http\Controllers\AboutController');
 //service
-Route::resource('/services','App\Http\Controllers\ServiceController')->middleware('auth');
+Route::resource('/services','App\Http\Controllers\ServiceController');
 //gallery category
 Route::resource('/gallery_categories','App\Http\  Controllers\GalleryCategoryController')->middleware('auth');
 //gallery

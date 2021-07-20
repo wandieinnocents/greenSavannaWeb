@@ -15,6 +15,17 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth')->except('show');
+        
+        //Multiple exclude
+        // $this->middleware('auth')->except(['index','other']);
+    }
+
+
+    
     public function index()
     {
       
