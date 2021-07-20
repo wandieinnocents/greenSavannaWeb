@@ -46,6 +46,7 @@ class ServiceController extends Controller
         $service->service_image = $request->file('service_image')->move('uploads/services');
 
         $service->save();
+        // redirect
         return redirect('/services');
     }
 
