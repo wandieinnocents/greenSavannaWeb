@@ -13,12 +13,19 @@
 
                      <!-- Feedback -->
                      <li>
-                    <a class="" href="/contacts"  aria-expanded="false">
+                         <a class="" href="/contacts"  aria-expanded="false">
 							<i class="flaticon-381-controls-3"></i>
 							<span class="nav-text">Feedback</span>
 						</a>
-                        
-                    </li>
+                     </li>
+
+                      <!-- Orders -->
+                      <li>
+                         <a class="" href="/orders"  aria-expanded="false">
+							<i class="flaticon-381-controls-3"></i>
+							<span class="nav-text">Orders</span>
+						</a>
+                     </li>
 
 
                    

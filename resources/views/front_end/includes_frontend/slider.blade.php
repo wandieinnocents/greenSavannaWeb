@@ -53,7 +53,7 @@
                                 data-paddingbottom="[10,10,10,10]"
                                 data-paddingleft="[0,0,0,0]"
 
-                                style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">Very passionate about the agroforestry Industry. </div>
+                                style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">Very passionate about the agroforestry industry. </div>
 
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption Newspaper-Subtitle   tp-resizeme" 
@@ -98,7 +98,7 @@
                                 style="z-index: 8; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer; margin-top: 150px;">READ MORE </div>
                         </li> -->
                         <!-- SLIDE  -->
-                        <li data-index="rs-1688" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{ asset('assets/frontendassets/assets/images/newscarousel2-100x50.jpg') }}"  data-rotate="0"  data-saveperformance="off"  data-title="SEEDLINGS PRODUCTION" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=" At Green Savannah We do production of high quality seedlings..">
+                        <li data-index="rs-1688" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="{{ asset('assets/frontendassets/assets/images/newscarousel2-100x50.jpg') }}"  data-rotate="0"  data-saveperformance="off"  data-title="SEEDLINGS PRODUCTION" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=" At Green Savannah We do production of high quality seedlings.">
                             <!-- MAIN IMAGE -->
                             <img src="{{ asset('assets/frontendassets/assets/images/slidetwonew.png') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
@@ -146,7 +146,7 @@
                                 data-paddingbottom="[10,10,10,10]"
                                 data-paddingleft="[0,0,0,0]"
 
-                                style="z-index: 10; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">At Green Savannah We do production of high quality seedlings.</div>
+                                style="z-index: 10; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">At Green Savannah we do production of high quality seedlings.</div>
 
                             <!-- LAYER NR. 7 -->
                             <div class="tp-caption Newspaper-Subtitle   tp-resizeme" 
@@ -192,7 +192,7 @@
                         </li>
                         <!-- SLIDE  -->
                         <li data-index="rs-1689" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  
-                            data-thumb="{{ asset('assets/frontendassets/assets/images/newscarousel6-100x50.jpg') }}"  data-rotate="0"  data-saveperformance="off"  data-title="TRAININGS IN THE FIELD" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="We Do Hands  training of the communities interested..">
+                            data-thumb="{{ asset('assets/frontendassets/assets/images/newscarousel6-100x50.jpg') }}"  data-rotate="0"  data-saveperformance="off"  data-title="TRAININGS IN THE FIELD" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="we do hands-on  trainings of the communities interested.">
                             <!-- MAIN IMAGE -->
                             <img src="{{ asset('assets/frontendassets/assets/images/slidethreenew.png') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
@@ -240,7 +240,7 @@
                                 data-paddingbottom="[10,10,10,10]"
                                 data-paddingleft="[0,0,0,0]"
 
-                                style="z-index: 14; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">We Do Hands  training of the communities interested. </div>
+                                style="z-index: 14; min-width: 600px; max-width: 600px; white-space: normal;text-transform:left; margin-top: 150px;">We do hands-on  trainings  of the communities interested. </div>
 
                             <!-- LAYER NR. 11 -->
                             <div class="tp-caption Newspaper-Subtitle   tp-resizeme" 

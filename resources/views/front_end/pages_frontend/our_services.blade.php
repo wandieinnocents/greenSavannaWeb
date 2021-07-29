@@ -35,8 +35,8 @@
                     <li><a href="/pricing">PRICING</a></li>
                     <li><a href="/service">SERVICES</a></li>
                     <li><a href="/pictorial">PICTOGRAPHY</a></li>
-                   
                     <li><a href="{{ route('contacts.create') }}">CONTACT</a>
+                    <li><a href="{{ route('orders.create') }}">ORDER</a>
                        
                     </li>
                 </ul>
@@ -64,7 +64,7 @@
 <br><br>
 <div class="section-title home-v2">
             <h2>OUR SERVICES</h2>
-            <p>WE ARE INVESTED IN THE PRODUCTION OF EUCALYPTUS HYBRID CLONES, SEEDLINGS OF EUCALYPTUS GRANDIS, MANY INDIGENOUS TREE SPECIES..</p>
+            <p>WE ARE INVESTED IN THE PRODUCTION OF EUCALYPTUS HYBRID CLONES, SEEDLINGS OF EUCALYPTUS GRANDIS, MANY INDIGENOUS TREE SPECIES.</p>
 </div>
 
 <div class="container">
@@ -76,7 +76,7 @@
 
                     <figure class="card-img overlay">
 
-                    <img src="{{ $fetch_service->service_image }}" alt="img" class="img-thumbnail" width="75">
+                    <img src="{{ $fetch_service->service_image }}" alt="img"  width="75">
 
                     <div class="card-caption">
                         

@@ -41,6 +41,7 @@
                     <li><a href="pictorial">PICTOGRAPHY</a></li>
                    
                     <li><a href="{{ route('contacts.create') }}">CONTACT</a>
+                    <li><a href="{{ route('orders.create') }}">ORDER</a>
                        
                     </li>
                 </ul>

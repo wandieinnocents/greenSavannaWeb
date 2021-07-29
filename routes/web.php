@@ -28,6 +28,8 @@ Route::get('/pricing' , 'App\Http\Controllers\PagesController@pricing');
 Route::get('/project' , 'App\Http\Controllers\PagesController@project');
 // contact
 Route::resource('/contacts' , 'App\Http\Controllers\ContactController');
+// orders
+Route::resource('/orders' , 'App\Http\Controllers\OrderController');
 
 
 
@@ -72,7 +74,7 @@ Route::resource('/galleries','App\Http\Controllers\GalleryController')->middlewa
 // Auth::routes();
 // disable register route
 Auth::routes([
-    'register' => true, // Registration Routes...
+    'register' => false, // Registration Routes...
     'reset' => false, // Password Reset Routes...
     'verify' => false, // Email Verification Routes...
   ]);
